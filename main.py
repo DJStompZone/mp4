@@ -10,6 +10,7 @@ app = Flask(__name__)
 downloads = {}
 
 VERSION = "1.1.2 Beta"
+site_domain = "your.website.here"
 
 def extract_youtube_id(text):
     url_patterns = [
@@ -64,6 +65,6 @@ def download(download_id):
 
 @app.route('/')
 def index():
-    return render_template("index.html", version=VERSION)
+    return render_template("index.html", version=VERSION, site_domain=site_domain)
 
 app.run(debug=True, host="0.0.0.0", port=0)
