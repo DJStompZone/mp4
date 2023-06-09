@@ -42,3 +42,5 @@ This project is intended for personal use only. Please respect the rights of con
 ## License
 
 This project is licensed under the MIT License. See `LICENSE` file for details.
+
+![Alt](https://repobeats.axiom.co/api/embed/500a5f482ee1a27451a224876efb65080aa6d4b5.svg "Repobeats analytics image")
